@@ -142,9 +142,8 @@ int main()
     arr = delete_line(arr, SIZE_x, SIZE_y, 3);
     cout << "\ndeleted 3:" << "\n";
     print_arr(arr, SIZE_x, SIZE_y);
+    //3
+    print_arr(shift(arr, SIZE_x, SIZE_y, 2, 3), SIZE_x, SIZE_y);
 
     delete_arr(arr, SIZE_x);
-    //3
-    shift(arr, SIZE_x, SIZE_y, 2, 3);
-    print_arr(shift(arr, SIZE_x, SIZE_y, 2, 3), SIZE_x, SIZE_y);
 }
